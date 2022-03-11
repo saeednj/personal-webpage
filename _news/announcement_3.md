@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2021-07-15 00:00:00-0700
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+We won the Parallel track of [SAT competition 2021](https://satcompetition.github.io/2021/slides/ISC2021-fixed.pdf).
