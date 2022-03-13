@@ -1,0 +1,29 @@
+gcc obf.c
+real    5m2.313s
+user    5m2.388s
+sys     0m0.042s
+
+gcc -O2 obf.c
+real    2m31.175s
+user    2m31.222s
+sys     0m0.015s
+
+gcc -fopenmp mp.c
+real    1m16.261s
+user    5m27.067s
+sys     0m0.273s
+
+gcc -fopenmp -O2 mp.c
+real    0m37.826s
+user    2m40.844s
+sys     0m0.059s
+
+gcc ans.c
+real    0m0.050s
+user    0m0.046s
+sys     0m0.002s
+
+gcc -O2 ans.c
+real    0m0.043s
+user    0m0.041s
+sys     0m0.002s
