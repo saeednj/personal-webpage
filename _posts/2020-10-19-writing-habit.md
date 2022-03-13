@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Writing habit; Finishing things
-author: Saeed
-tags: Personal
-excerpt: 
+categories: Personal
 ---
 
 It has been around a year since I started this blog. I started it to commit to practice writing. It has been a long time since my last post and it started to feel like yet another abandonded document/project/idea/etc. I have a set of notes about technical things that I can write about, but none of them make their way to become a blog post. I guess mainly because I want to write a complete and high quality post out of each topic, and it requires lots of effort to make them perfect, and I am a master procrastinator. I usually start things with passion, but like everything that results in a worthy output, there are hard and grunt work on the way. I have seen that if I get bored by that project even a bit, I might not take it to the finish line. This is not very surprising and I guess everyone experiences that. But I think it helps to remind myself and keep in mind that a rewarding output needs putting effort even in the times that the boredom level of the work rises. I never forget an advice from my Computer Programming teacher in school, which he wrote on one of my homeworks. I had done a sloppy job on that homework. This is kind of an excerpt of it: Know that struggling through debugging and the frustration is inevitable, but the perseverance in passing through, is what makes a good programmer. And if you keep that up, you are one of the top programmers in the school.
