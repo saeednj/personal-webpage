@@ -306,7 +306,7 @@ The table below summarizes the runtime of my solutions. The time limit to match 
 I'd be happy to hear your comments on this editorial.
 
 
-[1]: {{site.baseurl}}/codes/obf
+[1]: {{site.blog_code_path}}/obf
 [2]: https://en.wikipedia.org/wiki/Euclidean_algorithm
 [3]: https://en.wikipedia.org/wiki/Euler%27s_totient_function
 [4]: https://en.wikipedia.org/wiki/Two%27s_complement
