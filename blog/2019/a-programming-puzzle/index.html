@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Saeed  Nejati | The Good, the Bad and the Ugly: A Programming Puzzle</title>
+    <meta name="author" content="Saeed  Nejati" />
+    <meta name="description" content="Personal homepage of Saeed Nejati.
+" />
+    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="none" id="highlight_theme_light" />
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://saeednj.github.io/blog/2019/a-programming-puzzle/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark" />
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="https://saeednj.github.io/"><span class="font-weight-bold">Saeed</span>   Nejati</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">about</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/blog/">blog</a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/cv/">cv</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/publications/">publications</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/talks/">talks</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <div class="toggle-container">
+                <a id="light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- _layouts/post.html -->
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">The Good, the Bad and the Ugly: A Programming Puzzle</h1>
+    <p class="post-meta">January 12, 2019</p>
+    <p class="post-tags">
+      <a href="/blog/2019"> <i class="fas fa-calendar fa-sm"></i> 2019 </a>
+        ·  
+        <a href="/blog/tag/Programming">
+          <i class="fas fa-hashtag fa-sm"></i> Programming</a>  
+          <a href="/blog/tag/Puzzle">
+          <i class="fas fa-hashtag fa-sm"></i> Puzzle</a>  
+          <a href="/blog/tag/Obfuscation">
+          <i class="fas fa-hashtag fa-sm"></i> Obfuscation</a>  
+          
+        ·  
+        <a href="/blog/category/Technical">
+          <i class="fas fa-tag fa-sm"></i> Technical</a>  
+          
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    <p>I love programming puzzles and challenges. Although I haven’t spent much time on it in recent years.
+When I was doing my Master’s in Shahid Beheshti University, the Science branch of the student association in our department
+(for those who know Farsi, I am trying to translate this: انجمن علمی دانشکده),
+asked me to write a programming challenge for a take-home contest.
+Now, after more than ten years I wanted to write an editorial on that challenge.
+You can find all of the codes listed in this post <a href="https://github.com/saeednj/saeednj.github.io/tree/master/codes/obf" target="_blank" rel="noopener noreferrer">here</a>.</p>
+
+<h2 id="the-challenge">The challenge</h2>
+<p>The challenge that I wrote was about reading and understanding an obfuscated C program and optimizing it.
+The task was:</p>
+<blockquote>
+  <p>Given the following C code, write a code that generates the same
+output in under 10 seconds.
+The source code of your solution should not exceed 2KB in size.</p>
+</blockquote>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+#define Const(x,y,z) x##y##z
+#define float Const(un,sign,ed)
+</span>
+<span class="kt">float</span> <span class="n">x</span><span class="p">,</span> <span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">a</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">e</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">d</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span>
+<span class="kt">float</span> <span class="nf">A</span><span class="p">(</span><span class="kt">float</span> <span class="n">a</span><span class="p">,</span> <span class="kt">float</span> <span class="n">b</span><span class="p">){</span><span class="k">return</span> <span class="n">a</span><span class="o">&amp;</span><span class="n">b</span><span class="o">?</span><span class="n">A</span><span class="p">(</span><span class="n">a</span><span class="o">^</span><span class="n">b</span><span class="p">,(</span><span class="n">a</span><span class="o">&amp;</span><span class="n">b</span><span class="p">)</span><span class="o">&lt;&lt;</span><span class="mi">1</span><span class="p">)</span><span class="o">:</span><span class="n">a</span><span class="o">^</span><span class="n">b</span><span class="p">;}</span>
+<span class="kt">float</span> <span class="nf">P</span><span class="p">(</span><span class="kt">float</span> <span class="n">a</span><span class="p">,</span> <span class="kt">float</span> <span class="n">b</span><span class="p">){</span><span class="k">return</span> <span class="n">a</span><span class="o">?</span><span class="n">P</span><span class="p">(</span><span class="n">a</span><span class="o">/</span><span class="mi">10</span><span class="p">,</span><span class="sc">'-'</span><span class="p">)</span><span class="o">+</span><span class="n">putchar</span><span class="p">(</span><span class="n">a</span><span class="o">%</span><span class="mi">10</span><span class="o">+</span><span class="mi">48</span><span class="p">)</span><span class="o">-</span><span class="mi">48</span><span class="o">:</span><span class="mi">0</span><span class="p">;}</span>
+<span class="kt">float</span> <span class="nf">G</span><span class="p">(</span><span class="kt">float</span> <span class="n">a</span><span class="p">,</span> <span class="kt">float</span> <span class="n">b</span><span class="p">){</span><span class="k">for</span><span class="p">(;</span><span class="n">b</span><span class="p">;</span><span class="n">b</span><span class="o">^=</span><span class="n">a</span><span class="o">^=</span><span class="n">b</span><span class="o">^=</span><span class="n">a</span><span class="o">%=</span><span class="n">b</span><span class="p">);</span><span class="k">return</span> <span class="o">!--</span><span class="n">a</span><span class="p">;}</span>
+<span class="kt">float</span> <span class="nf">F</span><span class="p">(</span><span class="kt">float</span> <span class="n">a</span><span class="p">,</span> <span class="kt">float</span> <span class="n">b</span><span class="p">){</span><span class="k">return</span> <span class="n">b</span><span class="o">?</span><span class="n">G</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span><span class="o">+</span><span class="n">F</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">:</span><span class="mi">0</span><span class="p">;}</span>
+<span class="kt">float</span> <span class="nf">S</span><span class="p">(</span><span class="kt">float</span> <span class="n">a</span><span class="p">,</span> <span class="kt">float</span> <span class="n">b</span><span class="p">){</span><span class="k">return</span> <span class="n">a</span><span class="o">?</span><span class="n">a</span><span class="o">&lt;</span><span class="n">b</span><span class="o">?</span><span class="mi">0</span><span class="o">:</span><span class="n">S</span><span class="p">(</span><span class="n">A</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="mi">1</span><span class="o">+~</span><span class="n">b</span><span class="p">),</span><span class="n">b</span><span class="o">+</span><span class="mi">2</span><span class="p">)</span><span class="o">:</span><span class="mi">1</span><span class="p">;}</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="o">*</span><span class="n">d</span><span class="o">=</span><span class="mi">25</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span> <span class="n">x</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="n">x</span><span class="o">&lt;=</span><span class="mi">200000</span><span class="p">;</span> <span class="n">x</span><span class="o">++</span> <span class="p">)</span>
+    <span class="p">{</span>
+        <span class="kt">float</span> <span class="n">y</span> <span class="o">=</span> <span class="n">P</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="o">*</span><span class="n">d</span><span class="p">);</span>
+        <span class="k">if</span> <span class="p">(</span> <span class="n">x</span> <span class="o">%</span> <span class="n">y</span> <span class="p">)</span> <span class="p">{</span> <span class="n">puts</span><span class="p">(</span><span class="s">":Ugly"</span><span class="p">);</span><span class="k">continue</span><span class="p">;</span> <span class="p">}</span>
+        <span class="n">puts</span><span class="p">(</span> <span class="n">S</span><span class="p">(</span><span class="n">F</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">x</span><span class="p">),</span><span class="mi">1</span><span class="p">)</span> <span class="o">?</span> <span class="s">":Good"</span> <span class="o">:</span> <span class="s">":Bad"</span> <span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"Who's %d?</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="p">(</span><span class="o">*</span><span class="n">s</span><span class="p">)[</span><span class="n">a</span><span class="p">][</span><span class="n">e</span><span class="p">][</span><span class="n">e</span><span class="p">][</span><span class="n">d</span><span class="p">]);</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>I have seen functions <code class="language-plaintext highlighter-rouge">A</code> and <code class="language-plaintext highlighter-rouge">G</code> somewhere else and haven’t written them myself. At the moment I don’t remember the source. I will add a reference later when I find it. Having a quick look at the code, you can see that all of the functions are one-liners and except function <code class="language-plaintext highlighter-rouge">G</code> they all have recursive calls. There are some small weird syntaxes in the code too, like: variable <code class="language-plaintext highlighter-rouge">y</code> defined in the main function is a <code class="language-plaintext highlighter-rouge">float</code>, but in the next line we have <code class="language-plaintext highlighter-rouge">x % y</code> which
+doesn’t make sense. For example <code class="language-plaintext highlighter-rouge">5 % 2.5</code> doesn’t have a meaning.
+Or you can see that <code class="language-plaintext highlighter-rouge">s</code>, <code class="language-plaintext highlighter-rouge">a</code>, <code class="language-plaintext highlighter-rouge">e</code> and <code class="language-plaintext highlighter-rouge">d</code> are defined as arrays, but they are used as indices of another array in <code class="language-plaintext highlighter-rouge">(*s)[a][e][e][d]</code> without having an index themselves. Or if you look at the output, there are some numbers printed, but there is no <code class="language-plaintext highlighter-rouge">printf</code> function applied on a number directly in the code!</p>
+
+<p>In the <a href="https://github.com/saeednj/saeednj.github.io/tree/master/codes/obf" target="_blank" rel="noopener noreferrer">repository</a>, the main challenge code is called <code class="language-plaintext highlighter-rouge">obf.c</code>, you can compile it
+like: <code class="language-plaintext highlighter-rouge">gcc obf.c</code>. Running it on my machine with <code class="language-plaintext highlighter-rouge">Intel Core i7-3770 / 16GB RAM / 8MB cache / gcc 4.9.2</code>, it takes <em>5 minutes and 2.313 seconds</em> to generate the output.</p>
+
+<p>I did not limit the choice of programming language and even running platform. I doubted that they could have a winning impact, but I was curious to see solutions on different platforms/languages.
+I was very excited to see how people approached the problem and what are the solutions that I might not have thought about. Well, the number of submitted solutions was, umm, <strong>zero</strong>. Not sure if no one looked at it, no one was interested, or it was too hard. Maybe it doesn’t matter, because I enjoyed writing it.</p>
+
+<p><em>At this point if you want to give this challenge a try, please stop reading, as in the following section I talk about my initial solution and later solutions that I thought about.</em></p>
+
+<hr>
+
+<h2 id="my-solution">My solution</h2>
+
+<p>I will try to explain how each function works but I might not go into details. Let me know if you have any questions or comments on any part.</p>
+
+<p>Before trying to understand the code, one easy thing to do is compiling the code with a compiler optimizer to see how much of the jargon will be pruned away. Compiling like <code class="language-plaintext highlighter-rouge">gcc -O3 obf.c</code> on my machine, gives an executable that generates the desired output in <em>2 minutes 23.497 seconds</em>, which is nearly a 2X speed-up already.</p>
+
+<p>Let’s de-obfuscate the code a bit.</p>
+
+<p>In C preprocessor directives, <code class="language-plaintext highlighter-rouge">x##y</code> means concatenation of <code class="language-plaintext highlighter-rouge">x</code> and <code class="language-plaintext highlighter-rouge">y</code>. So <code class="language-plaintext highlighter-rouge">#define Const(x,y,z)</code> just concats its inputs. Therefore <code class="language-plaintext highlighter-rouge">Const(un,sign,ed)</code> is the word <code class="language-plaintext highlighter-rouge">unsigned</code>. The next line just defines <code class="language-plaintext highlighter-rouge">float</code> as <code class="language-plaintext highlighter-rouge">unsigned</code>, so you can replace all <code class="language-plaintext highlighter-rouge">float</code>s in the code with <code class="language-plaintext highlighter-rouge">unsigned</code>. Now, taking remainder over <code class="language-plaintext highlighter-rouge">y</code> in <code class="language-plaintext highlighter-rouge">x % y</code> makes sense!</p>
+
+<h3 id="function-add">Function <code class="language-plaintext highlighter-rouge">A</code>(dd)</h3>
+
+<p>This function performs some bitwise operations on its inputs. For understanding bitwise functions, it is usually helpful to think of the operands with one or two bits first, as the bitwise operations are applied on all bits independent of each other. Writing the code
+a bit more cleaner it looks like:</p>
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span> <span class="p">(</span><span class="n">a</span> <span class="o">&amp;</span> <span class="n">b</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">)</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">^</span> <span class="n">b</span><span class="p">;</span>
+<span class="k">else</span>
+    <span class="k">return</span> <span class="nf">A</span><span class="p">((</span><span class="n">a</span><span class="o">&amp;</span><span class="n">b</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="mi">1</span><span class="p">,</span> <span class="n">a</span><span class="o">^</span><span class="n">b</span><span class="p">);</span>
+</code></pre></div></div>
+<p>You can see that the code is computing <code class="language-plaintext highlighter-rouge">and</code> and <code class="language-plaintext highlighter-rouge">xor</code> of input bits. If you are familiar with logical circuits, you see that we are mimicking a half-adder, with <code class="language-plaintext highlighter-rouge">xor</code> as the sum output and <code class="language-plaintext highlighter-rouge">and</code> as the carry output. The code checks if there is any carry signal: <code class="language-plaintext highlighter-rouge">if ( (a&amp;b) == 0 )</code>, and if there are no carry values, the sum of two inputs is equal to their <code class="language-plaintext highlighter-rouge">xor</code>. Otherwise we need to add the carry values to the next digit position. That’s what <code class="language-plaintext highlighter-rouge">(a&amp;b) &lt;&lt; 1</code> is doing (putting carry values in their next digit position), and then calling the <code class="language-plaintext highlighter-rouge">A</code> function again to add up the carry and sum values. Basically <code class="language-plaintext highlighter-rouge">A</code> is doing addition (<code class="language-plaintext highlighter-rouge">a + b</code>). If you want to read more about this type of addition, I refer you to <a href="https://en.wikipedia.org/wiki/Carry-save_adder" target="_blank" rel="noopener noreferrer">carry-save addition</a> (where one of the three operands is always zero).</p>
+
+<h3 id="function-print">Function <code class="language-plaintext highlighter-rouge">P</code>(rint)</h3>
+
+<p>The first thing about this function is, it doesn’t use the second argument. So you can remove the second argument and update the calls to this function as well. This function calls <code class="language-plaintext highlighter-rouge">putchar</code> which prints one character and returns the ascii value of the printed character. The number 48 is the ascii value of character <code class="language-plaintext highlighter-rouge">'0'</code>, so <code class="language-plaintext highlighter-rouge">putchar(a%10+48)-48</code>, prints the least significant digit of <code class="language-plaintext highlighter-rouge">a</code> and evaluates to the value of that digit. Now if we write the code cleaner, we will get:</p>
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span> <span class="n">a</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">)</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="k">else</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">s</span> <span class="o">=</span> <span class="n">P</span><span class="p">(</span><span class="n">a</span><span class="o">/</span><span class="mi">10</span><span class="p">);</span> <span class="c1">// drop the rightmost digit and print</span>
+    <span class="kt">int</span> <span class="n">d</span> <span class="o">=</span> <span class="n">a</span> <span class="o">%</span> <span class="mi">10</span><span class="p">;</span>
+    <span class="n">putchar</span><span class="p">(</span><span class="n">d</span> <span class="o">+</span> <span class="sc">'0'</span><span class="p">);</span> <span class="c1">// print the rightmost digit</span>
+    <span class="k">return</span> <span class="n">s</span> <span class="o">+</span> <span class="n">d</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>Now it is easy to see that the code prints the given number digit by digit, but also returning the sum of digit values.</p>
+
+<h3 id="function-gcd">Function <code class="language-plaintext highlighter-rouge">G</code>(CD)</h3>
+
+<p>Maybe you have seen this code before: <code class="language-plaintext highlighter-rouge">b ^= a ^= b ^= a</code>. It does these steps (I labeled the updated variables as <em>new</em> to make it easier to follow):</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>new_b &lt;- a xor b
+new_a &lt;- a xor (new_b) = a xor (a xor b) = b
+newer_b &lt;- new_b xor new_a = (a xor b) xor b = a
+</code></pre></div></div>
+<p>which is effectively swapping <code class="language-plaintext highlighter-rouge">a</code> and <code class="language-plaintext highlighter-rouge">b</code>. Now we extend this to
+<code class="language-plaintext highlighter-rouge">b ^= a ^= b ^= a %= b</code>, and repeat it until <code class="language-plaintext highlighter-rouge">b</code> is non-zero. It means that we are doing this:</p>
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">while</span><span class="p">(</span> <span class="n">b</span> <span class="o">!=</span> <span class="mi">0</span> <span class="p">){</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="n">a</span> <span class="o">%</span> <span class="n">b</span><span class="p">;</span>
+    <span class="n">swap</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>This is <a href="https://en.wikipedia.org/wiki/Euclidean_algorithm" target="_blank" rel="noopener noreferrer">Euclidean algorithm</a> for computing <em>Greatest Common Divisor</em> or <em>GCD</em> in short. The GCD value is stored in <code class="language-plaintext highlighter-rouge">a</code>. But we are returning <code class="language-plaintext highlighter-rouge">!--a</code>. If the GCD is equal to 1, <code class="language-plaintext highlighter-rouge">--a</code> makes it zero and <code class="language-plaintext highlighter-rouge">!--a</code> return 1, and if GCD is larger than 1, <code class="language-plaintext highlighter-rouge">--a</code> is still non-zero and <code class="language-plaintext highlighter-rouge">!--a</code> returns zero. So the function actually return whether the two inputs are relatively prime or not.</p>
+
+<h3 id="function-fi">Function <code class="language-plaintext highlighter-rouge">F</code>(i)</h3>
+
+<p>In this function you can see a pattern of recursive call which was used in the function <code class="language-plaintext highlighter-rouge">P</code> as well. This pattern is called <em>tail recursion</em> and it simulates a loop by performing the body of the loop in the function and passing a next step value as an argument back to the function. The recursive call termination condition is the same as loop condition in this case. Let’s rewrite this function with a loop:</p>
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">unsigned</span> <span class="n">r</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="k">while</span><span class="p">(</span> <span class="n">b</span> <span class="p">)</span> <span class="p">{</span>
+    <span class="n">r</span> <span class="o">+=</span> <span class="n">G</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">);</span>
+    <span class="n">b</span><span class="o">--</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+</code></pre></div></div>
+<p>and knowing that <code class="language-plaintext highlighter-rouge">G</code> is calculating if <code class="language-plaintext highlighter-rouge">a</code> and <code class="language-plaintext highlighter-rouge">b</code> are relatively prime, <code class="language-plaintext highlighter-rouge">F</code> is calculating how many value from 1 to <code class="language-plaintext highlighter-rouge">b</code> are relatively prime to <code class="language-plaintext highlighter-rouge">a</code>. This might sound familiar to you. If we set both <code class="language-plaintext highlighter-rouge">a</code> and <code class="language-plaintext highlighter-rouge">b</code> to the same value, <code class="language-plaintext highlighter-rouge">F</code> would represent
+<a href="https://en.wikipedia.org/wiki/Euler%27s_totient_function" target="_blank" rel="noopener noreferrer">Euler’s phi function</a>.</p>
+
+<h3 id="function-square">Function <code class="language-plaintext highlighter-rouge">S</code>(quare)</h3>
+
+<p>Let’s look at the <code class="language-plaintext highlighter-rouge">A(a,1+~b)</code> first. <code class="language-plaintext highlighter-rouge">~b</code> inverts all of the bits in <code class="language-plaintext highlighter-rouge">b</code> (in other terms 1’s complement of <code class="language-plaintext highlighter-rouge">b</code>). Adding one to 1’s complement of a number gives us its <a href="https://en.wikipedia.org/wiki/Two%27s_complement" target="_blank" rel="noopener noreferrer">2’s complement</a>. Negative numbers are represented using 2’s complement notation. So <code class="language-plaintext highlighter-rouge">1+~b</code> is equivalent to <code class="language-plaintext highlighter-rouge">-b</code>, and we knew that <code class="language-plaintext highlighter-rouge">A(x,y)=x+y</code>, therefore <code class="language-plaintext highlighter-rouge">A(a,1+~b) = a+(-b) = a-b</code>.</p>
+
+<p>Again we can rewrite the tail recursion as a loop. Note that function <code class="language-plaintext highlighter-rouge">S</code> is only invoked with <code class="language-plaintext highlighter-rouge">b</code> set to 1, so we can fix the starting value of <code class="language-plaintext highlighter-rouge">b</code>.</p>
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span> <span class="n">a</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">)</span>
+    <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+<span class="k">else</span> <span class="p">{</span>
+    <span class="kt">unsigned</span> <span class="n">r</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="k">while</span><span class="p">(</span> <span class="n">b</span> <span class="o">&lt;=</span> <span class="n">a</span> <span class="p">)</span> <span class="p">{</span>
+        <span class="n">a</span> <span class="o">-=</span> <span class="n">b</span><span class="p">;</span>
+        <span class="n">b</span> <span class="o">+=</span> <span class="mi">2</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">if</span> <span class="p">(</span> <span class="n">a</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">)</span>
+        <span class="k">return</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">// this is simulating the termination condition</span>
+                  <span class="c1">// in the recursive call</span>
+    <span class="k">else</span>
+        <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>You can see that <code class="language-plaintext highlighter-rouge">b</code> values follow this sequence: 1, 3, 5, … (odd numbers)
+and each value is deducted from <code class="language-plaintext highlighter-rouge">a</code>, and if at some point <code class="language-plaintext highlighter-rouge">a</code> reaches
+exactly zero, the function returns 1. In other words, if <code class="language-plaintext highlighter-rouge">a</code> is equal to sum of some odd values, it returns 1, otherwise 0. If you compute the sum of first <code class="language-plaintext highlighter-rouge">k</code> odd numbers you will get <code class="language-plaintext highlighter-rouge">k^2</code>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1 = 1 = 1^2
+1 + 3 = 4 = 2^2
+1 + 3 + 5 = 9 = 3^2
+...
+</code></pre></div></div>
+<p>So, after all, <code class="language-plaintext highlighter-rouge">S</code> checks if <code class="language-plaintext highlighter-rouge">a</code> is a perfect square or not.</p>
+
+<h3 id="main-function">
+<code class="language-plaintext highlighter-rouge">main</code> function</h3>
+
+<p>Now that we understand each function, we can look at what the main program does. There is a loop over the interval [1, 200000], and for each number first the number is printed using <code class="language-plaintext highlighter-rouge">P</code> and the sum of digits is recorded (<code class="language-plaintext highlighter-rouge">y = P(x,*d);</code>, recall that second argument is not used). Each number can be either <em>Good</em>, <em>Bad</em> or <em>Ugly</em>. If the number is not divisible by its sum of digits, it is <em>Ugly</em> (e.g. 11 is Ugly, because it is not divisible by 1+1=2). If the number is beautiful (not Ugly :P), we compute the phi(x). If it is a perfect square, the number is Good, otherwise it is Bad. For example 12 is a Good number: divisible by 1+2, phi(12) = 4 = 2^2.</p>
+
+<p>Finally there is a line that was intended to serve as an “easter egg” if you will. If you see the output generated by this line, it says: “Who’s 25?” and the answer is in the code itself that says: <code class="language-plaintext highlighter-rouge">(*s)[a][e][e][d]</code>. This part was only written as a signature thing, otherwise in a solution one might simply write: <code class="language-plaintext highlighter-rouge">printf("Who's 25?\n")</code>. It showcases one of the weird things that is valid to a C compiler. When a C compiler wants to generate address to an array element, it adds the index to the base pointer. So <code class="language-plaintext highlighter-rouge">x[3]</code> is replaced with <code class="language-plaintext highlighter-rouge">*(x+3)</code>, and you know that addition is commutative, so it is equal to <code class="language-plaintext highlighter-rouge">*(3+x)</code> which in array notation is the same as <code class="language-plaintext highlighter-rouge">3[x]</code> (<code class="language-plaintext highlighter-rouge">x[3]</code> === <code class="language-plaintext highlighter-rouge">3[x]</code>). Using this idea, we can swap the index and array name in <code class="language-plaintext highlighter-rouge">(*s)[a][e][e][d]</code> and get: <code class="language-plaintext highlighter-rouge">d[(*s)[a][e][e]]</code>, and repeating this, we get: <code class="language-plaintext highlighter-rouge">d[e[e[a[*s]]]]</code>. <code class="language-plaintext highlighter-rouge">*s</code> points to the first element in <code class="language-plaintext highlighter-rouge">s</code>. The arrays <code class="language-plaintext highlighter-rouge">a</code>, <code class="language-plaintext highlighter-rouge">e</code>, <code class="language-plaintext highlighter-rouge">d</code> and <code class="language-plaintext highlighter-rouge">s</code> are declared in the global scope, so by default they are initialized with zero. Therefore <code class="language-plaintext highlighter-rouge">d[e[e[a[*s]]]] = d[e[e[a[0]]]] = d[e[e[0]]] = d[e[0]] = d[0]</code>, and we know the value of that, because of the line <code class="language-plaintext highlighter-rouge">*d = 25;</code></p>
+
+<h3 id="optimized-version">Optimized version</h3>
+
+<p>The algorithms for computing each of the functions is simply very inefficient (on purpose of course).</p>
+
+<h4 id="square-function">Square function</h4>
+
+<p>The function <code class="language-plaintext highlighter-rouge">S</code> detects a number being of the form \(k^2\) by doing \(k\) subtractions. So the time complexity of this function is \(O(sqrt(n))\). We can do this more efficiently. \(y=x^2\) is a strictly increasing function (resembles a sorted array if you build <code class="language-plaintext highlighter-rouge">y=a[i]=i*i</code>), so we can do a binary search. We have an input number <code class="language-plaintext highlighter-rouge">n</code> and want to find a <code class="language-plaintext highlighter-rouge">x</code> that <code class="language-plaintext highlighter-rouge">x*x == n</code>. The interval that this solution (if exists) is definitely in, is <code class="language-plaintext highlighter-rouge">[1, n]</code>. The following code shows how it can be implemented. The resulting time complexity is \(O(log(n))\).</p>
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">isSquare</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">long</span> <span class="kt">long</span> <span class="n">l</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">h</span> <span class="o">=</span> <span class="n">n</span><span class="p">,</span> <span class="n">m</span><span class="p">;</span>
+    <span class="k">while</span><span class="p">(</span> <span class="n">l</span><span class="o">&lt;=</span><span class="n">h</span> <span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">m</span> <span class="o">=</span> <span class="p">(</span><span class="n">l</span> <span class="o">+</span> <span class="n">h</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+        <span class="k">if</span> <span class="p">(</span> <span class="n">m</span><span class="o">*</span><span class="n">m</span> <span class="o">==</span> <span class="n">n</span> <span class="p">)</span> <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+        <span class="k">if</span> <span class="p">(</span> <span class="n">m</span><span class="o">*</span><span class="n">m</span> <span class="o">&lt;</span> <span class="n">n</span> <span class="p">)</span> <span class="n">l</span> <span class="o">=</span> <span class="n">m</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span>
+        <span class="k">else</span> <span class="n">h</span> <span class="o">=</span> <span class="n">m</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h4 id="phi-function">Phi function</h4>
+
+<p>The main improvement we can make is the computation of phi of each number. The trivial implementation given in the code, performs \(O(n)\) calls to GCD for each number, therefore, we have \(O(n^2)\) calls in total, which is the most expensive part of the code. We can compute the phi of a number <code class="language-plaintext highlighter-rouge">n</code> based on the phi of smaller numbers, and because we are computing the phi of all the numbers in the interval anyway, we can use memoization to dramatically improve the computation of later phi values. <del>Writing math equation is not very easy in Markdown, so</del> I refer you to the Wikipedia page for the <a href="https://en.wikipedia.org/wiki/Euler%27s_totient_function" target="_blank" rel="noopener noreferrer">Euler’s phi function</a>. The relation I mainly used is \(\phi(p^k) = p^k * (p-1)\) where \(p\) is a prime number. So scanning prime factors of the input number \(n\), if (\(p\) divides \(n / p\)) (\(n\) has prime factor \(p\) of power more than one),
+\(\phi(n) = \phi(n / p) *  p\) and \(\phi(n) = \phi(n / p) * (p-1)\) otherwise.</p>
+
+<p>Now we can store all the computed values of Phi (memoization) to avoid computing them multiple times. This way, computing some of the Phi values takes only one division and one multiplication. Considering that I have computed the prime numbers in the array <code class="language-plaintext highlighter-rouge">p</code>, and the array <code class="language-plaintext highlighter-rouge">PHI</code> is used for recording previously computed values, the code for computing Phi is:</p>
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">phi</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">i</span><span class="p">,</span> <span class="n">m</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span> <span class="n">PHI</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="p">)</span> <span class="k">return</span> <span class="n">PHI</span><span class="p">[</span><span class="n">n</span><span class="p">];</span>
+    <span class="k">for</span><span class="p">(</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">pn</span> <span class="o">&amp;&amp;</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">*</span><span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">&lt;=</span><span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span> <span class="p">)</span>
+        <span class="k">if</span> <span class="p">(</span> <span class="n">n</span> <span class="o">%</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">m</span> <span class="o">=</span> <span class="n">n</span> <span class="o">/</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+            <span class="n">PHI</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">=</span> <span class="n">phi</span><span class="p">(</span><span class="n">m</span><span class="p">)</span><span class="o">*</span><span class="p">(</span> <span class="n">m</span> <span class="o">%</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">?</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">:</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">-</span><span class="mi">1</span> <span class="p">);</span>
+            <span class="k">return</span> <span class="n">PHI</span><span class="p">[</span><span class="n">n</span><span class="p">];</span>
+        <span class="p">}</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">PHI</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">=</span> <span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">);</span>
+<span class="p">}</span>
+
+</code></pre></div></div>
+
+<p>Computing the prime numbers up to some value can be done using <a href="https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes" target="_blank" rel="noopener noreferrer">Sieve of Eratosthenes</a>. This is my implementation of this sieve, with modified loops to cross out even numbers other than 2:</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">void</span> <span class="nf">sieve</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">;</span>
+    <span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+    <span class="n">pn</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span> <span class="n">i</span><span class="o">=</span><span class="mi">3</span><span class="p">;</span> <span class="n">i</span><span class="o">*</span><span class="n">i</span><span class="o">&lt;=</span><span class="n">N</span><span class="p">;</span> <span class="n">i</span><span class="o">+=</span><span class="mi">2</span> <span class="p">)</span>
+        <span class="k">if</span> <span class="p">(</span> <span class="o">!</span><span class="n">ip</span><span class="p">[</span><span class="n">i</span><span class="o">/</span><span class="mi">2</span><span class="p">]</span> <span class="p">)</span>
+            <span class="k">for</span><span class="p">(</span> <span class="n">j</span><span class="o">=</span><span class="n">i</span><span class="o">*</span><span class="n">i</span><span class="p">;</span> <span class="n">j</span><span class="o">&lt;</span><span class="n">N</span><span class="p">;</span> <span class="n">j</span><span class="o">+=</span><span class="mi">2</span><span class="o">*</span><span class="n">i</span> <span class="p">)</span> <span class="n">ip</span><span class="p">[</span><span class="n">j</span><span class="o">/</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span> <span class="n">i</span><span class="o">=</span><span class="mi">3</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">N</span><span class="p">;</span> <span class="n">i</span><span class="o">+=</span><span class="mi">2</span> <span class="p">)</span>
+        <span class="k">if</span> <span class="p">(</span> <span class="o">!</span><span class="n">ip</span><span class="p">[</span><span class="n">i</span><span class="o">/</span><span class="mi">2</span><span class="p">]</span> <span class="p">)</span> <span class="n">p</span><span class="p">[</span><span class="n">pn</span><span class="o">++</span><span class="p">]</span> <span class="o">=</span> <span class="n">i</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>where <code class="language-plaintext highlighter-rouge">ip[x]</code> represents <code class="language-plaintext highlighter-rouge">isPrime(x)</code>, and array <code class="language-plaintext highlighter-rouge">p</code> will contain primes numbers between 1 and N, and <code class="language-plaintext highlighter-rouge">pn</code> is the number of prime numbers in <code class="language-plaintext highlighter-rouge">p</code> after the function is done.</p>
+
+<p>And finally the main function becomes:</p>
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">x</span><span class="p">;</span>
+    <span class="n">sieve</span><span class="p">();</span>
+    <span class="k">for</span><span class="p">(</span> <span class="n">x</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="n">x</span><span class="o">&lt;=</span><span class="mi">200000</span><span class="p">;</span> <span class="n">x</span><span class="o">++</span> <span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">PHI</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">=</span> <span class="n">phi</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+        <span class="kt">int</span> <span class="n">y</span> <span class="o">=</span> <span class="n">P</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+        <span class="k">if</span> <span class="p">(</span> <span class="n">x</span> <span class="o">%</span> <span class="n">y</span> <span class="p">)</span> <span class="p">{</span> <span class="n">puts</span><span class="p">(</span><span class="s">":Ugly"</span><span class="p">);</span> <span class="k">continue</span><span class="p">;</span> <span class="p">}</span>
+        <span class="n">puts</span><span class="p">(</span> <span class="n">isSquare</span><span class="p">(</span><span class="n">PHI</span><span class="p">[</span><span class="n">x</span><span class="p">])</span> <span class="o">?</span> <span class="s">":Good"</span> <span class="o">:</span> <span class="s">":Bad"</span> <span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">puts</span><span class="p">(</span><span class="s">"Who's 25?"</span><span class="p">);</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+
+</code></pre></div></div>
+
+<p>The full version can be found in the <a href="https://github.com/saeednj/saeednj.github.io/tree/master/codes/obf" target="_blank" rel="noopener noreferrer">repo</a> in the file <code class="language-plaintext highlighter-rouge">ans.c</code>, and on the machine specification I mentioned above, it generates the same output in <em>0.05 seconds</em>.</p>
+
+<h2 id="other-solutions">Other solutions</h2>
+
+<p>After I released the challenge, I realized that for each number, the property of being Good, Bad or Ugly is computed independent of other numbers. Which calls for an embarrassingly parallel computation. I did
+a quick parallelization with OpenMP, without optimizing any of the functions, and only doing the digit sum of <code class="language-plaintext highlighter-rouge">P</code> inline:</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="o">*</span><span class="n">d</span><span class="o">=</span><span class="mi">25</span><span class="p">;</span>
+    <span class="kt">char</span> <span class="n">str</span><span class="p">[</span><span class="mi">10</span><span class="p">][</span><span class="mi">10</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span> <span class="s">":Ugly"</span><span class="p">,</span> <span class="s">":Good"</span><span class="p">,</span> <span class="s">":Bad"</span><span class="p">};</span>
+    <span class="kt">int</span> <span class="n">result</span><span class="p">[</span><span class="mi">200005</span><span class="p">];</span>
+
+<span class="cp">#pragma omp parallel for private(x) schedule(dynamic, 8)
+</span>    <span class="k">for</span><span class="p">(</span> <span class="n">x</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="n">x</span><span class="o">&lt;=</span><span class="mi">200000</span><span class="p">;</span> <span class="n">x</span><span class="o">++</span> <span class="p">)</span>
+    <span class="p">{</span>
+        <span class="kt">int</span> <span class="n">t</span><span class="p">,</span> <span class="n">X</span> <span class="o">=</span> <span class="n">x</span><span class="p">,</span> <span class="n">sum</span><span class="p">;</span>
+        <span class="k">for</span><span class="p">(</span> <span class="n">sum</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">X</span><span class="p">;</span> <span class="n">X</span><span class="o">/=</span><span class="mi">10</span> <span class="p">)</span> <span class="n">sum</span> <span class="o">+=</span> <span class="n">X</span> <span class="o">%</span> <span class="mi">10</span><span class="p">;</span>
+        <span class="kt">float</span> <span class="n">y</span> <span class="o">=</span> <span class="n">sum</span><span class="p">;</span>
+        <span class="k">if</span> <span class="p">(</span> <span class="n">x</span> <span class="o">%</span> <span class="n">y</span> <span class="p">)</span> <span class="n">t</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+        <span class="k">else</span> <span class="k">if</span> <span class="p">(</span> <span class="n">S</span><span class="p">(</span><span class="n">F</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">x</span><span class="p">),</span><span class="mi">1</span><span class="p">)</span> <span class="p">)</span> <span class="n">t</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+        <span class="k">else</span> <span class="n">t</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+        <span class="n">result</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">=</span> <span class="n">t</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">for</span><span class="p">(</span> <span class="n">x</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="n">x</span><span class="o">&lt;=</span><span class="mi">200000</span><span class="p">;</span> <span class="n">x</span><span class="o">++</span> <span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="n">x</span><span class="p">);</span>
+        <span class="n">puts</span><span class="p">(</span> <span class="n">str</span><span class="p">[</span><span class="n">result</span><span class="p">[</span><span class="n">x</span><span class="p">]]</span> <span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"Who's %d?</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="p">(</span><span class="o">*</span><span class="n">s</span><span class="p">)[</span><span class="n">a</span><span class="p">][</span><span class="n">e</span><span class="p">][</span><span class="n">e</span><span class="p">][</span><span class="n">d</span><span class="p">]);</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+
+</code></pre></div></div>
+<p>This is listed as <code class="language-plaintext highlighter-rouge">mp.c</code> in the repository.
+On the same machine, using 8 cores, and with compiler optimization (<code class="language-plaintext highlighter-rouge">gcc -fopenmp -O2 mp.c</code>), it runs at <em>37.826 seconds</em>, which gets pretty close to the 10 seconds target without any manual optimizations.</p>
+
+<p>Finally I tried parallelizing the code with a GPU. You can find the code in <code class="language-plaintext highlighter-rouge">gpu.cu</code>. I tried to keep the code as close to what it is and not optimizing it, but I had to unroll the recursive calls to loops. Using CUDA and a very cheap laptop GPU, the results were ready in <em>1.3 seconds</em>, which reaches the goal of the challenge. Although not beating my initial solution :P</p>
+
+<p>The table below summarizes the runtime of my solutions. The time limit to match was 10 seconds.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th style="text-align: right">Runtime (s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Original code</td>
+      <td style="text-align: right">302.313</td>
+    </tr>
+    <tr>
+      <td>gcc optimization only</td>
+      <td style="text-align: right">143.97</td>
+    </tr>
+    <tr>
+      <td>OpenMP 8-core parallelization + gcc optimization</td>
+      <td style="text-align: right">37.826</td>
+    </tr>
+    <tr>
+      <td>Nvidia G105M parallelization</td>
+      <td style="text-align: right">1.3</td>
+    </tr>
+    <tr>
+      <td>Algorithmically optimized</td>
+      <td style="text-align: right">0.05</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br>
+I’d be happy to hear your comments on this editorial.</p>
+
+
+  </article><div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_shortname  = 'saeednblog';
+      var disqus_identifier = '/blog/2019/a-programming-puzzle';
+      var disqus_title      = "The Good, the Bad and the Ugly: A Programming Puzzle";
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript" target="_blank" rel="noopener noreferrer">comments powered by Disqus.</a>
+</noscript>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2022 Saeed  Nejati. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme.
+
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+  <script src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script src="/assets/js/common.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105305819-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-105305819-3');
+  </script>
+  </body>
+</html>
+
